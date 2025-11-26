@@ -1,0 +1,24 @@
+[general]
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/theme/catppuccin-frappe.toml"
+  "~/.config/alacritty/theme/catppuccin-macchiato.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
+
+[window]
+padding.x = 5
+padding.y = 5
+decorations = "buttonless"
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+size = 14
+
